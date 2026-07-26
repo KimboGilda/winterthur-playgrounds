@@ -6,6 +6,7 @@ import type { Playground } from "./stores/types";
 
 export default function App() {
   const [search, setSearch] = useState("");
+  const [sidebarOpen, setSidebarOpen] = useState(false);
   const data = playgroundsData as Playground[];
 
   const filtered = useMemo(() => {
@@ -22,13 +23,15 @@ export default function App() {
           {filtered.length} of {data.length} playgrounds
         </p>
       </header>
-      <div className="flex flex-1 overflow-hidden">
+      <div className="relative flex flex-1 overflow-hidden">
         <PlaygroundSidebar
           playgrounds={filtered}
           search={search}
           onSearchChange={setSearch}
+          open={sidebarOpen}
+          onToggle={() => setSidebarOpen((v) => !v)}
         />
-        <main className="flex-1">
+        <main className="relative flex-1 isolate">
           <PlaygroundMap playgrounds={filtered} />
         </main>
       </div>

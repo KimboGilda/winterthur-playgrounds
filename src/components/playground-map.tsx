@@ -26,6 +26,7 @@ function PlaygroundMap({ playgrounds }: Props) {
       center={WINTERTHUR_CENTER}
       zoom={13}
       scrollWheelZoom
+      zoomControl={false}
       className="h-full w-full"
     >
       <TileLayer
