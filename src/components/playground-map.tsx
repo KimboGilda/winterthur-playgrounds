@@ -1,6 +1,12 @@
-import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
+import {
+  MapContainer,
+  TileLayer,
+  Marker,
+  Popup,
+  ZoomControl,
+} from "react-leaflet";
 import MarkerClusterGroup from "react-leaflet-cluster";
-import L, { map } from "leaflet";
+import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 import type { Playground } from "../stores/types";
 import { observer } from "mobx-react-lite";
@@ -26,9 +32,18 @@ const PlaygroundMap = observer(function PlaygroundMap({ playgrounds }: Props) {
   const mapRef = useRef<L.Map | null>(null);
   const searchMarkerRef = useRef<L.Marker | null>(null);
 
+  const t = mapStore.target;
+
   useEffect(() => {
-    const t = mapStore.target;
-    if (!t || !mapRef.current) return;
+    if (!mapRef.current) return;
+
+    if (!t) {
+      if (searchMarkerRef.current) {
+        mapRef.current.removeLayer(searchMarkerRef.current);
+        searchMarkerRef.current = null;
+      }
+      return;
+    }
 
     mapRef.current.flyTo([t.lat, t.lon], t.zoom);
 
@@ -42,7 +57,7 @@ const PlaygroundMap = observer(function PlaygroundMap({ playgrounds }: Props) {
         .openPopup();
       searchMarkerRef.current = marker;
     }
-  }, []);
+  }, [t]);
 
   return (
     <MapContainer
@@ -53,6 +68,7 @@ const PlaygroundMap = observer(function PlaygroundMap({ playgrounds }: Props) {
       className="h-full w-full"
       ref={mapRef}
     >
+      <ZoomControl position="topright" />
       <TileLayer
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
         url="https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"

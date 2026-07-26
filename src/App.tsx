@@ -18,15 +18,16 @@ export default function App() {
 
   return (
     <div className="flex h-screen w-screen flex-col">
-      <header className="flex items-center gap-3 bg-[#1A1A1A] px-4 py-3 text-white shadow">
-        <div className="flex h-11 w-13 flex-shrink-0 items-center justify-center rounded-sm bg-white text-sm font-bold">
-          <img src="logo.png" />
-        </div>
-        <div>
+      <header className="flex items-center justify-between gap-3 bg-[#1A1A1A] px-4 py-3 text-white shadow">
+        <div className="flex items-center gap-3">
+          <div className="flex h-11 w-13 flex-shrink-0 items-center justify-center rounded-sm bg-white text-sm font-bold">
+            <img src="logo.png" />
+          </div>
           <h1 className="text-lg font-bold leading-tight text-red-300">
             Spielplätze Winterthur
           </h1>
         </div>
+        <AddressSearch />
       </header>
       <div className="relative flex flex-1 overflow-hidden">
         <PlaygroundSidebar

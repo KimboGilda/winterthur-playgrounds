@@ -10,6 +10,10 @@ class MapStore {
   flyTo(lat: number, lon: number, zoom: number, label?: string) {
     this.target = { lat, lon, zoom, label };
   }
+
+  clear() {
+    this.target = undefined;
+  }
 }
 
 export const mapStore = new MapStore();

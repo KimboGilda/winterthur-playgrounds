@@ -1,4 +1,5 @@
 import type { Playground } from "../stores/types";
+import { mapStore } from "../stores/map-store";
 
 interface Props {
   playgrounds: Playground[];
@@ -49,14 +50,19 @@ function PlaygroundSidebar({
             <li className="p-4 text-sm text-gray-400">No playgrounds match.</li>
           )}
           {playgrounds.map((p) => (
-            <li
-              key={p.id}
-              className="border-b border-gray-100 px-4 py-3 text-sm sm:py-2"
-            >
-              <div className="font-medium text-gray-800">{p.name}</div>
-              {p.operator && (
-                <div className="text-xs text-gray-500">{p.operator}</div>
-              )}
+            <li key={p.id}>
+              <button
+                onClick={() => {
+                  mapStore.flyTo(p.lat, p.lon, 17);
+                  onToggle();
+                }}
+                className="w-full border-b border-gray-100 px-4 py-3 text-left text-sm hover:bg-gray-50 active:bg-gray-100 sm:py-2"
+              >
+                <div className="font-medium text-gray-800">{p.name}</div>
+                {p.operator && (
+                  <div className="text-xs text-gray-500">{p.operator}</div>
+                )}
+              </button>
             </li>
           ))}
         </ul>
