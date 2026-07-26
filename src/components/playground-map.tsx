@@ -17,6 +17,10 @@ interface Props {
   playgrounds: Playground[];
 }
 
+interface ClusterLike {
+  getChildCount: () => number;
+}
+
 const playgroundIcon = new L.Icon({
   iconUrl: "public/playground.png",
   iconSize: [32, 32],
@@ -78,7 +82,7 @@ const PlaygroundMap = observer(function PlaygroundMap({ playgrounds }: Props) {
       <MarkerClusterGroup
         chunkedLoading
         maxClusterRadius={50}
-        iconCreateFunction={(cluster) => {
+        iconCreateFunction={(cluster: ClusterLike) => {
           const count = cluster.getChildCount();
           const size = count < 10 ? "small" : count < 30 ? "medium" : "large";
           return L.divIcon({
