@@ -1,0 +1,3435 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-05-06T03:25:00Z",
+    "timestamp_areas_base": "2026-05-06T03:25:00Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 355728401,
+      "lat": 47.5049224,
+      "lon": 8.6826782,
+      "tags": {
+        "leisure": "playground",
+        "name": "Tössrain"
+      }
+    },
+    {
+      "type": "node",
+      "id": 387534476,
+      "lat": 47.496561,
+      "lon": 8.7134361,
+      "tags": {
+        "access": "yes",
+        "leisure": "playground",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 560076137,
+      "lat": 47.4998424,
+      "lon": 8.7120213,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 807331710,
+      "lat": 47.5111759,
+      "lon": 8.7048638,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 988066013,
+      "lat": 47.4951373,
+      "lon": 8.7072675,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1294422308,
+      "lat": 47.5076076,
+      "lon": 8.7615547,
+      "tags": {
+        "access": "private",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1580432719,
+      "lat": 47.4934617,
+      "lon": 8.7157816,
+      "tags": {
+        "access": "customers",
+        "leisure": "playground",
+        "playground": "sandpit"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3925216225,
+      "lat": 47.5006303,
+      "lon": 8.7193927,
+      "tags": {
+        "access": "yes",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4256140089,
+      "lat": 47.5042112,
+      "lon": 8.7293264,
+      "tags": {
+        "access": "private",
+        "leisure": "playground",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4585120648,
+      "lat": 47.4963706,
+      "lon": 8.746007,
+      "tags": {
+        "access": "customers",
+        "addr:city": "Winterthur",
+        "addr:housenumber": "4",
+        "addr:postcode": "8400",
+        "addr:street": "Oberer Deutweg",
+        "leisure": "playground",
+        "name": "Piratolino Kinder Spiel Paradies"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4585123893,
+      "lat": 47.4966446,
+      "lon": 8.7461584,
+      "tags": {
+        "access": "customers",
+        "addr:city": "Winterthur",
+        "addr:housenumber": "4",
+        "addr:postcode": "8400",
+        "addr:street": "Oberer Deutweg",
+        "leisure": "playground",
+        "name": "LazerFun",
+        "website": "https://www.lazerfun-winterthur.ch/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4952008714,
+      "lat": 47.4762166,
+      "lon": 8.7030136,
+      "tags": {
+        "access": "customers",
+        "addr:city": "Winterthur",
+        "addr:housenumber": "5",
+        "addr:postcode": "8406",
+        "addr:street": "Steigstrasse",
+        "leisure": "playground",
+        "name": "Wunderland",
+        "website": "https://www.wunderland.ch/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5011997122,
+      "lat": 47.5119578,
+      "lon": 8.6811825,
+      "tags": {
+        "access": "yes",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5690064805,
+      "lat": 47.4961883,
+      "lon": 8.7220428,
+      "tags": {
+        "access": "yes",
+        "leisure": "playground",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5762327254,
+      "lat": 47.4922736,
+      "lon": 8.7387572,
+      "tags": {
+        "access": "yes",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5852344815,
+      "lat": 47.4973239,
+      "lon": 8.7396534,
+      "tags": {
+        "access": "yes",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5998987486,
+      "lat": 47.507179,
+      "lon": 8.7215006,
+      "tags": {
+        "access": "yes",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6357848262,
+      "lat": 47.492653,
+      "lon": 8.7157262,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6819205116,
+      "lat": 47.4774775,
+      "lon": 8.7265699,
+      "tags": {
+        "access": "yes",
+        "leisure": "playground",
+        "name": "Spielplatz Bruderhaus Wildpark Bruderhaus"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6893362072,
+      "lat": 47.5050996,
+      "lon": 8.7533226,
+      "tags": {
+        "access": "customers",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6893778650,
+      "lat": 47.5055895,
+      "lon": 8.7533302,
+      "tags": {
+        "access": "customers",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6893778651,
+      "lat": 47.5057406,
+      "lon": 8.7539437,
+      "tags": {
+        "access": "yes",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6893778652,
+      "lat": 47.5057707,
+      "lon": 8.7542337,
+      "tags": {
+        "access": "yes",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6893778653,
+      "lat": 47.5062415,
+      "lon": 8.7534435,
+      "tags": {
+        "access": "yes",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7149547574,
+      "lat": 47.5045354,
+      "lon": 8.7622843,
+      "tags": {
+        "access": "yes",
+        "contact:facebook": "https://www.facebook.com/spielkioskeulachpark/",
+        "description": "Verleiht Spielmaterial an Kinder, Jugendliche und Familien zur Nutzung im Eulachpark oder in der Halle 710",
+        "email": "gleis1b@jugendarbeit.ch",
+        "fee": "no",
+        "leisure": "playground",
+        "name": "Spielkiosk Eulachpark",
+        "phone": "+41 52 242 71 30",
+        "website": "http://www.spielkiosk.ch"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7284796206,
+      "lat": 47.5018633,
+      "lon": 8.7236812,
+      "tags": {
+        "access": "private",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7921030284,
+      "lat": 47.4853017,
+      "lon": 8.7575023,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8484012994,
+      "lat": 47.5067201,
+      "lon": 8.7541388,
+      "tags": {
+        "access": "yes",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8819758169,
+      "lat": 47.4952251,
+      "lon": 8.7157189,
+      "tags": {
+        "access": "permissive",
+        "leisure": "playground",
+        "surface": "gravel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9410568297,
+      "lat": 47.4666541,
+      "lon": 8.7600493,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9410568298,
+      "lat": 47.4660792,
+      "lon": 8.760039,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9676880110,
+      "lat": 47.5032553,
+      "lon": 8.7642884,
+      "tags": {
+        "access": "yes",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10968627895,
+      "lat": 47.5088019,
+      "lon": 8.6819908,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10968655780,
+      "lat": 47.5103047,
+      "lon": 8.6815826,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10968666769,
+      "lat": 47.509502,
+      "lon": 8.6807033,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10968666770,
+      "lat": 47.5095836,
+      "lon": 8.6820835,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10968668070,
+      "lat": 47.5101734,
+      "lon": 8.681394,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10968681343,
+      "lat": 47.510829,
+      "lon": 8.6795218,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10995838531,
+      "lat": 47.4912096,
+      "lon": 8.7095581,
+      "tags": {
+        "access": "yes",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10995840067,
+      "lat": 47.499307,
+      "lon": 8.707576,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11156415085,
+      "lat": 47.519835,
+      "lon": 8.7162497,
+      "tags": {
+        "access": "customers",
+        "addr:city": "Winterthur",
+        "leisure": "playground",
+        "name": "Camping Schützenweiher",
+        "operator": "Stadtgrün Winterthur",
+        "operator:wikidata": "Q56825906"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11187969581,
+      "lat": 47.495236,
+      "lon": 8.7370693,
+      "tags": {
+        "addr:city": "Winterthur",
+        "addr:country": "CH",
+        "addr:housenumber": "56",
+        "addr:street": "Tösstalstrasse",
+        "leisure": "playground",
+        "name": "Schulhaus Schönengrund Pavillon",
+        "operator": "Stadtgrün Winterthur"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11375325848,
+      "lat": 47.5112671,
+      "lon": 8.6851241,
+      "tags": {
+        "access": "customers",
+        "leisure": "playground",
+        "operator": "Stadtgrün Winterthur",
+        "operator:wikidata": "Q56825906"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12096717301,
+      "lat": 47.486714,
+      "lon": 8.7576192,
+      "tags": {
+        "access": "yes",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12810495105,
+      "lat": 47.5065463,
+      "lon": 8.7747086,
+      "tags": {
+        "access": "private",
+        "leisure": "playground",
+        "operator": "Privat",
+        "surface": "grass"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12810495106,
+      "lat": 47.5068072,
+      "lon": 8.7744443,
+      "tags": {
+        "access": "private",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12914155334,
+      "lat": 47.4856764,
+      "lon": 8.7548022,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13031738981,
+      "lat": 47.51832,
+      "lon": 8.759901,
+      "tags": {
+        "addr:housenumber": "140",
+        "addr:street": "Guggenbühlstrasse",
+        "leisure": "playground",
+        "name": "KG Wallrüti",
+        "ref": "40",
+        "uuid": "0200016b-48df-92c9-e063-5015630a1ac2"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13033714784,
+      "lat": 47.527346,
+      "lon": 8.752098,
+      "tags": {
+        "access": "yes",
+        "addr:housenumber": "70.1",
+        "addr:street": "Reutlingerstrasse",
+        "leisure": "playground",
+        "name": "SH Reutlingen Pavillon",
+        "ref": "38",
+        "uuid": "0200016b-4945-92c9-e063-5015630a1ac2"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13033756423,
+      "lat": 47.503651,
+      "lon": 8.779303,
+      "tags": {
+        "addr:housenumber": "69a",
+        "addr:street": "Im oberen Gern",
+        "leisure": "playground",
+        "name": "KG Im Gern",
+        "ref": "39",
+        "uuid": "0200016b-48df-92c9-e063-5015630a1ac2"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13033860640,
+      "lat": 47.496186,
+      "lon": 8.743239,
+      "tags": {
+        "addr:housenumber": "56",
+        "addr:street": "Eigenheimweg",
+        "leisure": "playground",
+        "name": "KG Eigenheim",
+        "ref": "36",
+        "uuid": "0200016b-4994-92c9-e063-5015630a1ac2"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13033867027,
+      "lat": 47.493717,
+      "lon": 8.740492,
+      "tags": {
+        "addr:housenumber": "10",
+        "addr:street": "Unterer Deutweg",
+        "leisure": "playground",
+        "name": "SchuBe Tiefenbrunnen",
+        "ref": "34",
+        "uuid": "0200016b-4960-92c9-e063-5015630a1ac2"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13033883554,
+      "lat": 47.507383,
+      "lon": 8.682459,
+      "tags": {
+        "addr:housenumber": "16",
+        "addr:street": "Espenstrasse",
+        "leisure": "playground",
+        "name": "SH Wyden Naturnah",
+        "ref": "33",
+        "uuid": "0200016b-4946-92c9-e063-5015630a1ac2"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13033904420,
+      "lat": 47.466302,
+      "lon": 8.75889,
+      "tags": {
+        "addr:housenumber": "1",
+        "addr:street": "Hermann-Bühler-Strasse",
+        "leisure": "playground",
+        "name": "SH Sennhof Neubau",
+        "ref": "29",
+        "uuid": "0200016b-4974-92c9-e063-5015630a1ac2"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13033960662,
+      "lat": 47.508267,
+      "lon": 8.717033,
+      "tags": {
+        "access": "customers",
+        "addr:housenumber": "8",
+        "addr:street": "Feldstrasse",
+        "leisure": "playground",
+        "name": "KG Feldstrasse",
+        "ref": "17",
+        "uuid": "0200016b-497c-92c9-e063-5015630a1ac2"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13033965526,
+      "lat": 47.489545,
+      "lon": 8.742096,
+      "tags": {
+        "addr:housenumber": "18a",
+        "addr:street": "Endlikerstrasse",
+        "leisure": "playground",
+        "name": "SH Mattenbach SchuBe",
+        "ref": "23",
+        "uuid": "0200016b-494b-92c9-e063-5015630a1ac2"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13033978932,
+      "lat": 47.490274,
+      "lon": 8.741953,
+      "tags": {
+        "addr:housenumber": "71a",
+        "addr:street": "Talgutstrasse",
+        "leisure": "playground",
+        "name": "SH Mattenbach Oberstufe",
+        "ref": "28",
+        "uuid": "0200016b-4983-92c9-e063-5015630a1ac2"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13033991442,
+      "lat": 47.514968,
+      "lon": 8.689774,
+      "tags": {
+        "access": "yes",
+        "addr:housenumber": "50e",
+        "addr:street": "Holzlegistrasse",
+        "leisure": "playground",
+        "name": "SH Langwiesen Modulbau",
+        "ref": "21",
+        "uuid": "0200016b-4950-92c9-e063-5015630a1ac2"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13034015331,
+      "lat": 47.496035,
+      "lon": 8.712633,
+      "tags": {
+        "addr:housenumber": "5",
+        "addr:street": "Brühlbergstrasse",
+        "leisure": "playground",
+        "name": "SH Brühlberg",
+        "ref": "19",
+        "uuid": "0200016b-4991-92c9-e063-5015630a1ac2"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13034018114,
+      "lat": 47.507536,
+      "lon": 8.691133,
+      "tags": {
+        "addr:housenumber": "59",
+        "addr:street": "Wieshofstrasse",
+        "leisure": "playground",
+        "name": "SH Ausserdorf",
+        "ref": "18",
+        "uuid": "0200016b-4947-92c9-e063-5015630a1ac2"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13034031018,
+      "lat": 47.478341,
+      "lon": 8.70188,
+      "tags": {
+        "addr:housenumber": "14",
+        "addr:street": "Hündlerstrasse",
+        "leisure": "playground",
+        "name": "SH Laubegg",
+        "ref": "16",
+        "uuid": "0200016b-494a-92c9-e063-5015630a1ac2"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13037114886,
+      "lat": 47.504152,
+      "lon": 8.752886,
+      "tags": {
+        "leisure": "playground",
+        "name": "KG Unterwegli",
+        "object:housenumber": "32",
+        "object:street": "Unterwegli",
+        "ref": "13",
+        "uuid": "0200016b-4978-92c9-e063-5015630a1ac2"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13037172707,
+      "lat": 47.512505,
+      "lon": 8.754552,
+      "tags": {
+        "leisure": "playground",
+        "name": "KG Gerzler",
+        "object:housenumber": "1",
+        "object:street": "Steinbruchweg",
+        "ref": "6",
+        "uuid": "0200016b-4942-92c9-e063-5015630a1ac2"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13037172708,
+      "lat": 47.510724,
+      "lon": 8.702196,
+      "tags": {
+        "leisure": "playground",
+        "name": "SH Talhof",
+        "object:housenumber": "24",
+        "object:street": "Talhofweg",
+        "ref": "10",
+        "uuid": "0200016b-4902-92c9-e063-5015630a1ac2"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13037237968,
+      "lat": 47.500704,
+      "lon": 8.730682,
+      "tags": {
+        "leisure": "playground",
+        "name": "Statt-Spiel-Platz Höhli",
+        "object:housenumber": "1",
+        "object:street": "Lindstrasse",
+        "ref": "3",
+        "uuid": "0200016b-4973-92c9-e063-5015630a1ac2"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13037237969,
+      "lat": 47.50533,
+      "lon": 8.761924,
+      "tags": {
+        "access": "yes",
+        "leisure": "playground",
+        "name": "SH Eulachpark",
+        "object:housenumber": "4a",
+        "object:street": "Hegifeldstrasse",
+        "ref": "14",
+        "uuid": "0200016b-4943-92c9-e063-5015630a1ac2"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13633059701,
+      "lat": 47.483836,
+      "lon": 8.7689348,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 9934251,
+      "center": {
+        "lat": 47.4896524,
+        "lon": 8.7371597
+      },
+      "nodes": [81479467, 81479470, 81479474, 81479478, 81479467],
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 31985834,
+      "center": {
+        "lat": 47.5129606,
+        "lon": 8.6902408
+      },
+      "nodes": [
+        25430706, 12254779794, 12254779795, 12254779796, 12254779797,
+        12254779798, 12254779799, 12254779800, 12254782603, 12254782604,
+        25430706
+      ],
+      "tags": {
+        "access": "yes",
+        "leisure": "playground",
+        "name": "Freizeitanlage Holzlegi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 33203307,
+      "center": {
+        "lat": 47.4943322,
+        "lon": 8.7269542
+      },
+      "nodes": [
+        376532000, 376532005, 2445223228, 376532016, 25429210, 2435887140,
+        7206811423, 25429418, 7206811407, 7206811424, 7206811408, 376532000
+      ],
+      "tags": {
+        "access": "yes",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 33205684,
+      "center": {
+        "lat": 47.5069369,
+        "lon": 8.721613
+      },
+      "nodes": [
+        376617205, 5844655674, 5844655673, 376617215, 376617227, 376617238,
+        10154667062, 5844655672, 376617205
+      ],
+      "tags": {
+        "access": "yes",
+        "leisure": "playground",
+        "name": "Juchpark"
+      }
+    },
+    {
+      "type": "way",
+      "id": 50463705,
+      "center": {
+        "lat": 47.5191634,
+        "lon": 8.7669948
+      },
+      "nodes": [
+        641891492, 25429947, 25428678, 2203776089, 641891456, 1305294178,
+        25429007, 12123018027, 2203776226, 1305295147, 12123018025, 12123018024,
+        12123018023, 6814392363, 25428421, 6750367636, 25429186, 641891492
+      ],
+      "tags": {
+        "leisure": "playground",
+        "name": "Freizeitanlage Eichwäldli"
+      }
+    },
+    {
+      "type": "way",
+      "id": 58855693,
+      "center": {
+        "lat": 47.5120526,
+        "lon": 8.6897511
+      },
+      "nodes": [
+        729226899, 729227136, 472354502, 729226550, 729227062, 729226899
+      ],
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 68249252,
+      "center": {
+        "lat": 47.5023348,
+        "lon": 8.71759
+      },
+      "nodes": [821895206, 821895092, 821895127, 821895187, 821895206],
+      "tags": {
+        "access": "yes",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 72414568,
+      "center": {
+        "lat": 47.5011758,
+        "lon": 8.7279716
+      },
+      "nodes": [
+        13031534167, 13031534168, 13031534169, 13031534170, 13031534171,
+        13031534172, 13031534173, 13031534167
+      ],
+      "tags": {
+        "access": "yes",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 73502219,
+      "center": {
+        "lat": 47.5032089,
+        "lon": 8.7752736
+      },
+      "nodes": [
+        277743903, 277743905, 871002441, 1277305441, 1277304188, 1277304737,
+        923362604, 364378061, 1277304621, 1277302806, 277743903
+      ],
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 84427639,
+      "center": {
+        "lat": 47.4961763,
+        "lon": 8.7088792
+      },
+      "nodes": [
+        25427385, 25426808, 412271211, 412271210, 558820708, 25429873, 25430307,
+        25430551, 25429527, 1050272471, 412271209, 25427385
+      ],
+      "tags": {
+        "access": "yes",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 99355411,
+      "center": {
+        "lat": 47.4773074,
+        "lon": 8.7725188
+      },
+      "nodes": [659270997, 1149209975, 1149208466, 1149208083, 659270997],
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 112363460,
+      "center": {
+        "lat": 47.5062892,
+        "lon": 8.7725667
+      },
+      "nodes": [
+        1277303288, 1277302227, 1278149836, 1278149824, 1278149804, 1278149844,
+        1277303584, 1277302121, 1277303288
+      ],
+      "tags": {
+        "access": "yes",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 112363467,
+      "center": {
+        "lat": 47.5045487,
+        "lon": 8.7757973
+      },
+      "nodes": [
+        1277303740, 277743902, 364159458, 5766723479, 364159459, 2673952829,
+        521896303, 5766723473, 2673952854, 1277303624, 1277303740
+      ],
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 112455502,
+      "center": {
+        "lat": 47.5048221,
+        "lon": 8.7767137
+      },
+      "nodes": [1278106338, 1278106389, 1278105915, 1278105829, 1278106338],
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 112455509,
+      "center": {
+        "lat": 47.5031214,
+        "lon": 8.7789822
+      },
+      "nodes": [
+        1221850549, 1221850331, 1278105458, 1278106536, 1278106326, 1221848928,
+        1221849499, 1221851274, 1221850690, 1278106753, 923362576, 2673847068,
+        1221850549
+      ],
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 113218810,
+      "center": {
+        "lat": 47.5040155,
+        "lon": 8.7693264
+      },
+      "nodes": [
+        1284532799, 1284534130, 1284533627, 1284532669, 2583744339, 2583744346,
+        1284532799
+      ],
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 113580628,
+      "center": {
+        "lat": 47.5010578,
+        "lon": 8.7501222
+      },
+      "nodes": [
+        5765890213, 5765890216, 5848052500, 5765890215, 5848052501, 5765890218,
+        5765890219, 5848052502, 1287866988, 1287866751, 1295194753, 5919437828,
+        5765890214, 25429366, 5765890217, 5765890213
+      ],
+      "tags": {
+        "access": "yes",
+        "leisure": "playground",
+        "name": "Spielplatz Talwiesen",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 113580652,
+      "center": {
+        "lat": 47.5021476,
+        "lon": 8.7496183
+      },
+      "nodes": [1287866243, 1287867589, 1287867307, 1287867102, 1287866243],
+      "tags": {
+        "access": "yes",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 113714226,
+      "center": {
+        "lat": 47.4935208,
+        "lon": 8.7636238
+      },
+      "nodes": [
+        4166769575, 4166769572, 25430296, 1289140585, 4257970180, 4257970178,
+        4257970177, 4257970179, 651516593, 4166769577, 4166769575
+      ],
+      "tags": {
+        "access": "yes",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 114237202,
+      "center": {
+        "lat": 47.50792,
+        "lon": 8.7628017
+      },
+      "nodes": [
+        1294422302, 10799341240, 1294422153, 1294422342, 10799341241,
+        10799341242, 10799341243, 10799341244, 1294422367, 1294422302
+      ],
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 114237218,
+      "center": {
+        "lat": 47.5084623,
+        "lon": 8.7638561
+      },
+      "nodes": [1294422070, 1294422374, 1294421748, 1294421920, 1294422070],
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 114313932,
+      "center": {
+        "lat": 47.501422,
+        "lon": 8.7480264
+      },
+      "nodes": [1295196395, 1295195938, 25429047, 25427496, 1295196395],
+      "tags": {
+        "access": "yes",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 135199511,
+      "center": {
+        "lat": 47.518501,
+        "lon": 8.7157986
+      },
+      "nodes": [
+        246534986, 1484966558, 1484966505, 1484966519, 246534927, 246534986
+      ],
+      "tags": {
+        "access": "yes",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 135199534,
+      "center": {
+        "lat": 47.5114261,
+        "lon": 8.7178773
+      },
+      "nodes": [
+        1484962480, 1484962488, 1484962490, 1484962478, 1484962476, 1484962474,
+        1484962471, 1484962466, 1484962468, 1484962480
+      ],
+      "tags": {
+        "access": "yes",
+        "barrier": "hedge",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 144588682,
+      "center": {
+        "lat": 47.5039426,
+        "lon": 8.7337252
+      },
+      "nodes": [
+        1581272380, 1581272374, 5174626416, 5174626417, 1581272385, 5174626418,
+        5174626419, 1581272380
+      ],
+      "tags": {
+        "access": "yes",
+        "leisure": "playground",
+        "name": "Spielplatz Hermann Götz-Strasse"
+      }
+    },
+    {
+      "type": "way",
+      "id": 146983033,
+      "center": {
+        "lat": 47.5072703,
+        "lon": 8.7246385
+      },
+      "nodes": [1601766436, 1601766451, 1601766449, 1601766432, 1601766436],
+      "tags": {
+        "intermittent": "yes",
+        "landuse": "basin",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 172539344,
+      "center": {
+        "lat": 47.4770843,
+        "lon": 8.7682531
+      },
+      "nodes": [
+        1834338003, 1834338011, 1834337968, 1834337966, 1834337957, 1834337945,
+        1834337947, 1834337937, 1834337905, 1834337948, 1834337983, 1834338003
+      ],
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 172539360,
+      "center": {
+        "lat": 47.4803424,
+        "lon": 8.770083
+      },
+      "nodes": [
+        1834339826, 1834339968, 1834339970, 1834339846, 1834339830, 1834339828,
+        1834339826
+      ],
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 195415595,
+      "center": {
+        "lat": 47.5055427,
+        "lon": 8.7625006
+      },
+      "nodes": [
+        2058619790, 2058619656, 2058619650, 859523369, 12074268396, 12074268397,
+        859523314, 12074268399, 12074268400, 12074268398, 2058619875,
+        12074268401, 12074268402, 1128757306, 333106203, 2058619790
+      ],
+      "tags": {
+        "access": "yes",
+        "addr:city": "Winterthur",
+        "addr:housenumber": "4a",
+        "addr:postcode": "8404",
+        "addr:street": "Hegifeldstrasse",
+        "leisure": "playground",
+        "name": "Spielplatz Eulachpark"
+      }
+    },
+    {
+      "type": "way",
+      "id": 196226049,
+      "center": {
+        "lat": 47.4754365,
+        "lon": 8.7451681
+      },
+      "nodes": [
+        2065742419, 2065742422, 2065742421, 2065742418, 12282772545, 2065742419
+      ],
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 200970509,
+      "center": {
+        "lat": 47.5112381,
+        "lon": 8.7594942
+      },
+      "nodes": [2109263815, 2109263820, 2109263822, 2109263818, 2109263815],
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 200970536,
+      "center": {
+        "lat": 47.5130987,
+        "lon": 8.7588371
+      },
+      "nodes": [
+        2109263962, 2109263924, 6150243826, 2109263928, 2109263938, 2109263946,
+        2109263960, 2109263964, 2109263962
+      ],
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 201033820,
+      "center": {
+        "lat": 47.4871063,
+        "lon": 8.7621662
+      },
+      "nodes": [
+        2109853142, 2109853148, 2109853150, 2109853226, 2109853194, 2109853142
+      ],
+      "tags": {
+        "access": "private",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 210287183,
+      "center": {
+        "lat": 47.5183548,
+        "lon": 8.7653352
+      },
+      "nodes": [
+        2203775702, 12123018046, 2203775721, 12123018048, 12123018045,
+        12123018038, 2203775690, 2203775696, 2203775702
+      ],
+      "tags": {
+        "access": "private",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 210287186,
+      "center": {
+        "lat": 47.5194764,
+        "lon": 8.7661765
+      },
+      "nodes": [
+        2203776225, 2203776213, 2203776197, 2203776143, 2203776121, 2203776201,
+        2203776225
+      ],
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 216246995,
+      "center": {
+        "lat": 47.5176091,
+        "lon": 8.7632821
+      },
+      "nodes": [
+        2255958967, 2255958972, 2255958970, 2255958974, 2255959022, 2255959011,
+        2255958995, 2255958984, 2255958983, 2255958967
+      ],
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 223555070,
+      "center": {
+        "lat": 47.4926273,
+        "lon": 8.7489103
+      },
+      "nodes": [
+        2324398822, 2324398823, 2324398845, 2324398883, 2324398884, 9537471257,
+        9537471252, 2324398822
+      ],
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 225043223,
+      "center": {
+        "lat": 47.4911578,
+        "lon": 8.7606022
+      },
+      "nodes": [
+        2338694178, 2338694142, 2338694298, 6710484999, 6710485000, 2338694178
+      ],
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 229014568,
+      "center": {
+        "lat": 47.4986824,
+        "lon": 8.7347648
+      },
+      "nodes": [2376560389, 2376560379, 2376560327, 2376560338, 2376560389],
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 230520642,
+      "center": {
+        "lat": 47.4977581,
+        "lon": 8.7418176
+      },
+      "nodes": [
+        2390207391, 2390207375, 2390207382, 12612614511, 2390207395, 2390207391
+      ],
+      "tags": {
+        "access": "yes",
+        "leisure": "playground",
+        "playground": "sandpit"
+      }
+    },
+    {
+      "type": "way",
+      "id": 230520645,
+      "center": {
+        "lat": 47.497753,
+        "lon": 8.7415513
+      },
+      "nodes": [2390207370, 2390207353, 2390207308, 2390207318, 2390207370],
+      "tags": {
+        "access": "yes",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 234973925,
+      "center": {
+        "lat": 47.4939877,
+        "lon": 8.7433033
+      },
+      "nodes": [2430871258, 2430871260, 2430871263, 2430871265, 2430871258],
+      "tags": {
+        "access": "private",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 235035740,
+      "center": {
+        "lat": 47.4944978,
+        "lon": 8.7378385
+      },
+      "nodes": [2431412840, 2431412876, 2431412754, 2431412686, 2431412840],
+      "tags": {
+        "access": "yes",
+        "leisure": "playground",
+        "surface": "sand"
+      }
+    },
+    {
+      "type": "way",
+      "id": 235035747,
+      "center": {
+        "lat": 47.4920652,
+        "lon": 8.7458674
+      },
+      "nodes": [2431410984, 2431410947, 2431410932, 2431410958, 2431410984],
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 236157318,
+      "center": {
+        "lat": 47.4951241,
+        "lon": 8.728855
+      },
+      "nodes": [
+        2442262838, 2442262877, 2442262918, 2442262934, 2442262928, 2442262873,
+        2442262838
+      ],
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 236933046,
+      "center": {
+        "lat": 47.4897687,
+        "lon": 8.7413218
+      },
+      "nodes": [2448817505, 2448817475, 2448817507, 2448817537, 2448817505],
+      "tags": {
+        "access": "yes",
+        "addr:city": "Winterthur",
+        "addr:housenumber": "18b",
+        "addr:postcode": "8400",
+        "addr:street": "Endlikerstrasse",
+        "leisure": "playground",
+        "name": "Spielplatz Schulhaus Mattenbach"
+      }
+    },
+    {
+      "type": "way",
+      "id": 236933053,
+      "center": {
+        "lat": 47.4915696,
+        "lon": 8.7402977
+      },
+      "nodes": [
+        2448818255, 2448818182, 2448818186, 2448818209, 2448818310, 2448818255
+      ],
+      "tags": {
+        "access": "yes",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 237304414,
+      "center": {
+        "lat": 47.4873501,
+        "lon": 8.7522921
+      },
+      "nodes": [2452265392, 2452265384, 2452265660, 2452265677, 2452265392],
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 237304417,
+      "center": {
+        "lat": 47.4886883,
+        "lon": 8.7485899
+      },
+      "nodes": [2452266723, 2452266834, 2452266840, 2452266727, 2452266723],
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 237304434,
+      "center": {
+        "lat": 47.4895378,
+        "lon": 8.7481095
+      },
+      "nodes": [
+        2452267245, 2452267493, 1138079754, 1138077515, 1138078772, 1138078882,
+        2452267245
+      ],
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 237311985,
+      "center": {
+        "lat": 47.4850941,
+        "lon": 8.7529135
+      },
+      "nodes": [2452329665, 2452329668, 2452329659, 2452329653, 2452329665],
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 237311987,
+      "center": {
+        "lat": 47.4880694,
+        "lon": 8.7574993
+      },
+      "nodes": [2452330150, 2452330164, 2452330166, 2452330152, 2452330150],
+      "tags": {
+        "access": "private",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 237311993,
+      "center": {
+        "lat": 47.4899661,
+        "lon": 8.7579547
+      },
+      "nodes": [
+        2452330338, 2452330345, 2452330353, 2452330356, 2452330352, 2452330350,
+        2452330338
+      ],
+      "tags": {
+        "access": "private",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 237311999,
+      "center": {
+        "lat": 47.4895506,
+        "lon": 8.7593896
+      },
+      "nodes": [
+        2452330333, 2452330330, 2452330305, 2338693559, 2338693589, 2338693592,
+        2338693631, 2338693632, 2452330333
+      ],
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 237312000,
+      "center": {
+        "lat": 47.4890494,
+        "lon": 8.7594646
+      },
+      "nodes": [
+        2452330275, 2452330276, 2452330280, 2452330282, 2452330293, 2452330292,
+        2452330284, 2452330281, 2452330275
+      ],
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 238010568,
+      "center": {
+        "lat": 47.4880547,
+        "lon": 8.7607375
+      },
+      "nodes": [2458711345, 2458711326, 2458711476, 2458711491, 2458711345],
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 238010570,
+      "center": {
+        "lat": 47.4903489,
+        "lon": 8.764469
+      },
+      "nodes": [2458713898, 2458713887, 2458713813, 2458713833, 2458713898],
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 238010574,
+      "center": {
+        "lat": 47.4906873,
+        "lon": 8.7624388
+      },
+      "nodes": [2458714023, 2458714073, 2458714068, 2458714014, 2458714023],
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 238010597,
+      "center": {
+        "lat": 47.4893888,
+        "lon": 8.7614826
+      },
+      "nodes": [
+        2458713258, 2458713248, 2458713359, 1533877326, 2458713371, 2458713258
+      ],
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 239188373,
+      "center": {
+        "lat": 47.5073544,
+        "lon": 8.6924132
+      },
+      "nodes": [
+        2470002441, 2470002439, 2470002446, 2470002524, 2470002554, 2470002562,
+        2470002522, 2470002513, 2470002460, 2470002441
+      ],
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 239205617,
+      "center": {
+        "lat": 47.4841928,
+        "lon": 8.6941162
+      },
+      "nodes": [
+        2470171782, 2470171788, 2470171790, 2470171794, 2470171804, 2470171808,
+        2470171812, 2470171813, 2470171809, 2470171801, 2470171799, 2470171797,
+        2470171792, 2470171782
+      ],
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 239225904,
+      "center": {
+        "lat": 47.4811496,
+        "lon": 8.7674376
+      },
+      "nodes": [
+        2470326642, 2470326607, 2470326612, 2470326567, 2470326582, 2470326645,
+        2470326664, 2470326667, 2470326642
+      ],
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 239342945,
+      "center": {
+        "lat": 47.4850191,
+        "lon": 8.769083
+      },
+      "nodes": [
+        2471370253, 2471370331, 2471370343, 2471370328, 2471370274, 2471370253
+      ],
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 239342946,
+      "center": {
+        "lat": 47.4850505,
+        "lon": 8.7712814
+      },
+      "nodes": [
+        1834340088, 2471370266, 2471370303, 2471370305, 2471370364, 1828030824,
+        1834340088
+      ],
+      "tags": {
+        "access": "yes",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 240068099,
+      "center": {
+        "lat": 47.4873811,
+        "lon": 8.770308
+      },
+      "nodes": [2478414557, 2478414716, 2478414909, 2478414786, 2478414557],
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 240068107,
+      "center": {
+        "lat": 47.4854979,
+        "lon": 8.7692063
+      },
+      "nodes": [
+        2478411965, 2478411943, 2478411920, 2478411879, 2478411947, 2478411965
+      ],
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 240834908,
+      "center": {
+        "lat": 47.4947326,
+        "lon": 8.7361583
+      },
+      "nodes": [
+        134488199, 134488196, 134488194, 2485259159, 2431413032, 2431413024,
+        2431413011, 2431413007, 2431412985, 2431412977, 2431412970, 7064890747,
+        2431412955, 2431412939, 2431412920, 2485259120, 7064890748, 7064890749,
+        2485259100, 2485259088, 134488211, 134488207, 134488203, 134488199
+      ],
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 241775228,
+      "center": {
+        "lat": 47.5192719,
+        "lon": 8.7507453
+      },
+      "nodes": [
+        2493667990, 2493667974, 2493667955, 2493667956, 2493667987, 2493667990
+      ],
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 241775231,
+      "center": {
+        "lat": 47.5195767,
+        "lon": 8.7502972
+      },
+      "nodes": [
+        2493668029, 2493668030, 2493668026, 2493668023, 2493668024, 2493668025,
+        2493668029
+      ],
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 241775237,
+      "center": {
+        "lat": 47.5203776,
+        "lon": 8.7531739
+      },
+      "nodes": [
+        2493668101, 2493668102, 2493668097, 2493668098, 2493668076, 2493668075,
+        2493668089, 2493668086, 2493668101
+      ],
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 252211192,
+      "center": {
+        "lat": 47.4780956,
+        "lon": 8.7017239
+      },
+      "nodes": [2583017485, 2583017459, 2583017462, 2583017490, 2583017485],
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 258290958,
+      "center": {
+        "lat": 47.5030172,
+        "lon": 8.6942298
+      },
+      "nodes": [2636735312, 2636735314, 2636735306, 778521177, 2636735312],
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 258290961,
+      "center": {
+        "lat": 47.5019037,
+        "lon": 8.6953
+      },
+      "nodes": [
+        2636735220, 2636735227, 2636735231, 2636735230, 2636735244, 2636735237,
+        778521013, 778521225, 2636735220
+      ],
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 277146608,
+      "center": {
+        "lat": 47.5138741,
+        "lon": 8.6897464
+      },
+      "nodes": [2816770674, 2816770683, 2816770703, 2816770696, 2816770674],
+      "tags": {
+        "access": "yes",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 277146618,
+      "center": {
+        "lat": 47.513943,
+        "lon": 8.6882548
+      },
+      "nodes": [
+        2816770677, 2816770711, 2816770718, 2816770708, 2816770667, 2816770677
+      ],
+      "tags": {
+        "access": "yes",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 369186016,
+      "center": {
+        "lat": 47.5126097,
+        "lon": 8.693307
+      },
+      "nodes": [3729975387, 3729975404, 3729975399, 3729975385, 3729975387],
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 382041817,
+      "center": {
+        "lat": 47.4886381,
+        "lon": 8.7340754
+      },
+      "nodes": [3852390793, 3852390794, 3852390795, 3852390796, 3852390793],
+      "tags": {
+        "leisure": "playground",
+        "name": "Steglitobel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 397790958,
+      "center": {
+        "lat": 47.5210936,
+        "lon": 8.7634804
+      },
+      "nodes": [4005763624, 4005763626, 4005763625, 4005763623, 4005763624],
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 397790959,
+      "center": {
+        "lat": 47.5208782,
+        "lon": 8.7640657
+      },
+      "nodes": [4005763613, 4005763605, 2203776266, 4005763618, 4005763613],
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 397790963,
+      "center": {
+        "lat": 47.5200832,
+        "lon": 8.7630963
+      },
+      "nodes": [
+        4005763454, 4005763493, 4005763510, 2219612049, 2219611973, 2219611956,
+        4005763454
+      ],
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 397797220,
+      "center": {
+        "lat": 47.51887,
+        "lon": 8.7527908
+      },
+      "nodes": [
+        4005837767, 4005837768, 4005837782, 4005837783, 4005837772, 4005837765,
+        4005837776, 4005837769, 4005837763, 4005837750, 4005837744, 4005837745,
+        4005837753, 4005837761, 4005837762, 4005837767
+      ],
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 397797221,
+      "center": {
+        "lat": 47.5181749,
+        "lon": 8.7532272
+      },
+      "nodes": [
+        4005837697, 4005837587, 4005837585, 4005837571, 4005837568, 4005837569,
+        4005837578, 4005837579, 4005837573, 4005837580, 4005837689, 4005837588,
+        4005837699, 4005837698, 4005837694, 4005837695, 4005837702, 4005837704,
+        4005837697
+      ],
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 397797225,
+      "center": {
+        "lat": 47.5181695,
+        "lon": 8.7543621
+      },
+      "nodes": [4005837582, 4005837693, 4005837586, 4005837575, 4005837582],
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 397800684,
+      "center": {
+        "lat": 47.5175522,
+        "lon": 8.7562643
+      },
+      "nodes": [4005875382, 4005876191, 4005875385, 4005875376, 4005875382],
+      "tags": {
+        "access": "private",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 397800685,
+      "center": {
+        "lat": 47.5172295,
+        "lon": 8.7563392
+      },
+      "nodes": [4005875356, 4005875357, 4005875363, 4005875362, 4005875356],
+      "tags": {
+        "access": "private",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 397800686,
+      "center": {
+        "lat": 47.5170265,
+        "lon": 8.7565912
+      },
+      "nodes": [4005875347, 4005875348, 4005875351, 4005875350, 4005875347],
+      "tags": {
+        "access": "private",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 403795363,
+      "center": {
+        "lat": 47.4846201,
+        "lon": 8.6956495
+      },
+      "nodes": [
+        4061049456, 4061049457, 4061049458, 4061049459, 4061049460, 4061049461,
+        4061049462, 4061049463, 4061049464, 4061049465, 4061049466, 4061049448,
+        4061049451, 4061049452, 4061049453, 4061049454, 4061049455, 4061049449,
+        4061049450, 4061049456
+      ],
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 405488894,
+      "center": {
+        "lat": 47.4782125,
+        "lon": 8.7774516
+      },
+      "nodes": [
+        4076838082, 4076838083, 4076838084, 4076838085, 4076841189, 4076838086,
+        4076838087, 4076838082
+      ],
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 409090923,
+      "center": {
+        "lat": 47.4977495,
+        "lon": 8.6950141
+      },
+      "nodes": [
+        4109826856, 13253850442, 13253850443, 13253850441, 13253850440,
+        3085310461, 25427164, 3085310463, 25499346, 4109826858, 4109826859,
+        4109826860, 4109826861, 4109826856
+      ],
+      "tags": {
+        "access": "yes",
+        "leisure": "playground",
+        "name": "Freizeitanlage Nägelsee",
+        "operator": "Quartierverein Nägelsee"
+      }
+    },
+    {
+      "type": "way",
+      "id": 409090924,
+      "center": {
+        "lat": 47.4777535,
+        "lon": 8.7012603
+      },
+      "nodes": [
+        927293549, 927293447, 927293573, 1091279196, 2583017447, 1091278830,
+        927293515, 927293549
+      ],
+      "tags": {
+        "addr:city": "Winterthur",
+        "addr:housenumber": "14",
+        "addr:postcode": "8406",
+        "addr:street": "Hündlerstrasse",
+        "leisure": "playground",
+        "name": "Freizeitanlage Dättnau"
+      }
+    },
+    {
+      "type": "way",
+      "id": 409090925,
+      "center": {
+        "lat": 47.4667079,
+        "lon": 8.7789502
+      },
+      "nodes": [
+        1157043017, 1149211216, 428588573, 1600996474, 309021518, 1157040585,
+        1157043017
+      ],
+      "tags": {
+        "leisure": "playground",
+        "name": "Freizeitanlage Chiesgrueb"
+      }
+    },
+    {
+      "type": "way",
+      "id": 413037775,
+      "center": {
+        "lat": 47.4828758,
+        "lon": 8.7002254
+      },
+      "nodes": [
+        4143672014, 4143672015, 4143672016, 8712118890, 4143672017, 4143672014
+      ],
+      "tags": {
+        "access": "yes",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 426505058,
+      "center": {
+        "lat": 47.4941369,
+        "lon": 8.7583808
+      },
+      "nodes": [4257970416, 4257970408, 7041688619, 4257970420, 4257970416],
+      "tags": {
+        "access": "yes",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 426505060,
+      "center": {
+        "lat": 47.4887369,
+        "lon": 8.7639568
+      },
+      "nodes": [
+        2458712774, 4257970116, 4257970112, 4257970111, 2458712596, 2458712669,
+        2458712704, 2458712770, 2458712774
+      ],
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 435785435,
+      "center": {
+        "lat": 47.4846677,
+        "lon": 8.7645302
+      },
+      "nodes": [
+        4336798793, 13120744109, 4336798794, 4336798795, 4336798796, 4336798797,
+        4336798798, 4336798799, 4336798800, 13120744107, 4336798793
+      ],
+      "tags": {
+        "access": "yes",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 455163923,
+      "center": {
+        "lat": 47.515062,
+        "lon": 8.6852102
+      },
+      "nodes": [4516036693, 4516036694, 4516036695, 4516036696, 4516036693],
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 467450401,
+      "center": {
+        "lat": 47.5162091,
+        "lon": 8.680254
+      },
+      "nodes": [4620677902, 4620677903, 4620677904, 4620677905, 4620677902],
+      "tags": {
+        "access": "private",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 467450409,
+      "center": {
+        "lat": 47.5144091,
+        "lon": 8.684912
+      },
+      "nodes": [4620677923, 4620677924, 4620677925, 4620677926, 4620677923],
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 469210594,
+      "center": {
+        "lat": 47.5056143,
+        "lon": 8.7084725
+      },
+      "nodes": [4635932389, 4635932390, 4635932391, 4635932392, 4635932389],
+      "tags": {
+        "access": "private",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 472904434,
+      "center": {
+        "lat": 47.5067066,
+        "lon": 8.7271035
+      },
+      "nodes": [
+        4670826485, 4670826486, 6466193399, 6466193398, 6466193397, 4670826487,
+        4670826488, 4670826485
+      ],
+      "tags": {
+        "access": "yes",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 494896872,
+      "center": {
+        "lat": 47.5101801,
+        "lon": 8.6980791
+      },
+      "nodes": [4866725938, 4866725939, 4866725934, 4866725933, 4866725938],
+      "tags": {
+        "access": "customers",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 496231292,
+      "center": {
+        "lat": 47.5061115,
+        "lon": 8.7409481
+      },
+      "nodes": [4879408464, 4879408465, 4879408466, 4879408467, 4879408464],
+      "tags": {
+        "access": "customers",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 505137058,
+      "center": {
+        "lat": 47.4945076,
+        "lon": 8.7035723
+      },
+      "nodes": [
+        6179295095, 4951579862, 4951579863, 4951579864, 6179295094, 6179295095
+      ],
+      "tags": {
+        "access": "yes",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 510839845,
+      "center": {
+        "lat": 47.5139719,
+        "lon": 8.6836407
+      },
+      "nodes": [4998269462, 4998269463, 4998269464, 4998269465, 4998269462],
+      "tags": {
+        "access": "private",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 510840541,
+      "center": {
+        "lat": 47.514492,
+        "lon": 8.6853126
+      },
+      "nodes": [4998280472, 4998280473, 4998280474, 4998280475, 4998280472],
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 513097887,
+      "center": {
+        "lat": 47.5094391,
+        "lon": 8.7061343
+      },
+      "nodes": [
+        5016441729, 5016441730, 5016441731, 5016441732, 5016441733, 5016441729
+      ],
+      "tags": {
+        "access": "yes",
+        "addr:city": "Winterthur",
+        "addr:country": "CH",
+        "addr:street": "Weststrasse",
+        "leisure": "playground",
+        "name": "Feldtal Anlage",
+        "operator": "Stadtgrün Winterthur",
+        "operator:wikidata": "Q56825906"
+      }
+    },
+    {
+      "type": "way",
+      "id": 514334343,
+      "center": {
+        "lat": 47.4731257,
+        "lon": 8.7090731
+      },
+      "nodes": [
+        5025144006, 10701580078, 10701580079, 10701580080, 5025144007,
+        5025144008, 10701587442, 5025144009, 5025144006
+      ],
+      "tags": {
+        "leisure": "playground",
+        "survey:date": "2025-06-04"
+      }
+    },
+    {
+      "type": "way",
+      "id": 597197770,
+      "center": {
+        "lat": 47.5040183,
+        "lon": 8.7187899
+      },
+      "nodes": [
+        12809625354, 5686968793, 5686968794, 5686968788, 5686968789, 5686968797,
+        5686968796, 12809625354
+      ],
+      "tags": {
+        "access": "private",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 608879173,
+      "center": {
+        "lat": 47.5073971,
+        "lon": 8.7148934
+      },
+      "nodes": [5767708574, 5767708575, 5767708576, 5767708577, 5767708574],
+      "tags": {
+        "access": "yes",
+        "leisure": "playground",
+        "playground": "sandpit"
+      }
+    },
+    {
+      "type": "way",
+      "id": 609926010,
+      "center": {
+        "lat": 47.5058079,
+        "lon": 8.7512494
+      },
+      "nodes": [5776750584, 5776750585, 5776750586, 5776750587, 5776750584],
+      "tags": {
+        "access": "yes",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 611581988,
+      "center": {
+        "lat": 47.5094693,
+        "lon": 8.757309
+      },
+      "nodes": [
+        5789876465, 6846293975, 5789876466, 5789876467, 5789876468, 5789876469,
+        5789876470, 5789876471, 5789876465
+      ],
+      "tags": {
+        "access": "private",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 611583148,
+      "center": {
+        "lat": 47.5091575,
+        "lon": 8.7568146
+      },
+      "nodes": [5789909470, 5789909471, 5789909472, 5789909473, 5789909470],
+      "tags": {
+        "access": "permissive",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 624036290,
+      "center": {
+        "lat": 47.5116716,
+        "lon": 8.7598779
+      },
+      "nodes": [5892510713, 5892510712, 5892510711, 5892510710, 5892510713],
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 679018987,
+      "center": {
+        "lat": 47.5076982,
+        "lon": 8.7631001
+      },
+      "nodes": [6357889668, 6357889667, 6357889666, 6357889665, 6357889668],
+      "tags": {
+        "access": "yes",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 689427759,
+      "center": {
+        "lat": 47.4865139,
+        "lon": 8.7107676
+      },
+      "nodes": [
+        6467577512, 6467577513, 6467577514, 6467577515, 6467577516, 6467577517,
+        6467577518, 6467577519, 6467577520, 6467577512
+      ],
+      "tags": {
+        "access": "yes",
+        "leisure": "playground",
+        "name": "Spielplatz Gustavstrasse"
+      }
+    },
+    {
+      "type": "way",
+      "id": 691712152,
+      "center": {
+        "lat": 47.483908,
+        "lon": 8.7677448
+      },
+      "nodes": [
+        6491597027, 6491597028, 6491597029, 6491597030, 6491597031, 6491597032,
+        6491597027
+      ],
+      "tags": {
+        "access": "yes",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 736998775,
+      "center": {
+        "lat": 47.4791403,
+        "lon": 8.7707654
+      },
+      "nodes": [
+        6899974731, 6899974730, 747625803, 6899974726, 6899974725, 6899974729,
+        6899974728, 6899974727, 6899974731
+      ],
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 760597052,
+      "center": {
+        "lat": 47.4745176,
+        "lon": 8.7021204
+      },
+      "nodes": [
+        7105369616, 7105369615, 7105369614, 7105369613, 7105369612, 7105369611,
+        7105369610, 7105369609, 7105369616
+      ],
+      "tags": {
+        "access": "customers",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 760597053,
+      "center": {
+        "lat": 47.4746762,
+        "lon": 8.7029069
+      },
+      "nodes": [
+        7105369624, 7105369623, 7105369622, 11931715394, 7105369621, 7105369620,
+        7105369619, 7105369618, 7105369617, 7105369624
+      ],
+      "tags": {
+        "access": "customers",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 760597054,
+      "center": {
+        "lat": 47.4738573,
+        "lon": 8.7026566
+      },
+      "nodes": [
+        7105369635, 7105369634, 7105369633, 7105369632, 7105369631, 4487397902,
+        7105369630, 7105369629, 7105369628, 7105369627, 7105369626, 7105369635
+      ],
+      "tags": {
+        "access": "customers",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 764143588,
+      "center": {
+        "lat": 47.4967988,
+        "lon": 8.7371143
+      },
+      "nodes": [
+        7138956658, 7138956656, 7138956660, 7139545228, 7138956657, 7138956658
+      ],
+      "tags": {
+        "access": "permissive",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 764625092,
+      "center": {
+        "lat": 47.5188062,
+        "lon": 8.7145105
+      },
+      "nodes": [
+        7143259285, 10815804865, 10815804864, 1484966642, 1484966616,
+        1484966541, 1484966526, 7143259288, 7143259285
+      ],
+      "tags": {
+        "access": "customers",
+        "leisure": "playground",
+        "name": "Abenteuerspielplatz",
+        "opening_hours": "We-Fr 13:30-18:00; Sa 12:00-17:00",
+        "website": "https://platz-winti.ch/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 781572111,
+      "center": {
+        "lat": 47.4741974,
+        "lon": 8.7013771
+      },
+      "nodes": [
+        7297087191, 7297087195, 7297087192, 7297087193, 7297087194, 7297087191
+      ],
+      "tags": {
+        "access": "customers",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 781608398,
+      "center": {
+        "lat": 47.4800815,
+        "lon": 8.6996996
+      },
+      "nodes": [
+        7297456639, 7297456640, 7297456641, 7297456642, 7297456643, 7297456644,
+        7297456645, 7297456646, 7297456647, 311115816, 878711962, 7297456639
+      ],
+      "tags": {
+        "access": "yes",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 781608399,
+      "center": {
+        "lat": 47.4805832,
+        "lon": 8.6988329
+      },
+      "nodes": [7297456652, 7297456653, 7297456654, 7297456655, 7297456652],
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 781608408,
+      "center": {
+        "lat": 47.4814778,
+        "lon": 8.6967034
+      },
+      "nodes": [
+        7297456753, 7297456754, 7297456755, 7297456756, 7297456759, 7297456757,
+        7297456758, 7297456753
+      ],
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 781886571,
+      "center": {
+        "lat": 47.483863,
+        "lon": 8.6955389
+      },
+      "nodes": [7300096527, 7300096528, 7300096529, 7300096530, 7300096527],
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 781886595,
+      "center": {
+        "lat": 47.4832994,
+        "lon": 8.698668
+      },
+      "nodes": [
+        7300096647, 7300096648, 7300096649, 7300096650, 7300096651, 7300096643,
+        7300096652, 7300096647
+      ],
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 824371671,
+      "center": {
+        "lat": 47.4927293,
+        "lon": 8.7139865
+      },
+      "nodes": [7697510102, 7697510103, 7697510104, 7697510105, 7697510102],
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 910402615,
+      "center": {
+        "lat": 47.4923969,
+        "lon": 8.7652785
+      },
+      "nodes": [
+        8452700073, 8452700074, 8452700075, 8452700076, 8452700077, 8452700073
+      ],
+      "tags": {
+        "access": "private",
+        "leisure": "playground",
+        "playground:theme": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 917296048,
+      "center": {
+        "lat": 47.5075776,
+        "lon": 8.755745
+      },
+      "nodes": [8519878951, 8519878952, 8519878953, 8519878954, 8519878951],
+      "tags": {
+        "access": "yes",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 952877864,
+      "center": {
+        "lat": 47.4958765,
+        "lon": 8.7156741
+      },
+      "nodes": [8819747670, 7158213410, 8819747671, 8819747672, 8819747670],
+      "tags": {
+        "access": "yes",
+        "leisure": "playground",
+        "playground:theme": "industry",
+        "start_date": "2021-06-08",
+        "surface": "gravel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1020311777,
+      "center": {
+        "lat": 47.4628738,
+        "lon": 8.7601414
+      },
+      "nodes": [
+        9410568256, 11486358912, 11486364640, 9456839033, 9410568265,
+        11486364625, 11486364626, 11486364627, 11486364628, 11486364629,
+        11486364630, 9410568266, 11486364634, 11486364633, 11486364632,
+        11486364631, 11486364635, 11486364636, 11486364637, 11486364638,
+        11486364639, 9410568267, 12082858153, 9410568268, 11486364643,
+        9410568269, 11486364642, 11486364641, 9410568256
+      ],
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1020311779,
+      "center": {
+        "lat": 47.4633743,
+        "lon": 8.7590062
+      },
+      "nodes": [
+        9410568278, 9410568279, 9410568280, 9410568281, 9410568282, 12082874587,
+        9410568278
+      ],
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1025694656,
+      "center": {
+        "lat": 47.4643788,
+        "lon": 8.7597251
+      },
+      "nodes": [
+        9410568240, 9410568239, 9410568288, 5785979730, 9456839027, 9410568242,
+        9410568240
+      ],
+      "tags": {
+        "access": "customers",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1073087168,
+      "center": {
+        "lat": 47.4893171,
+        "lon": 8.7189905
+      },
+      "nodes": [
+        9844392188, 11861846844, 9844392189, 9844392190, 9844392191, 9844392192,
+        9844392188
+      ],
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1081080424,
+      "center": {
+        "lat": 47.5009538,
+        "lon": 8.7509573
+      },
+      "nodes": [2816770511, 9908975204, 9908975203, 2816770512, 2816770511],
+      "tags": {
+        "access": "yes",
+        "addr:city": "Winterthur",
+        "addr:housenumber": "90",
+        "addr:postcode": "8404",
+        "addr:street": "Talackerstrasse",
+        "leisure": "playground",
+        "name": "Spielplatz Talacker"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1081085326,
+      "center": {
+        "lat": 47.4914603,
+        "lon": 8.7288696
+      },
+      "nodes": [9908977738, 9908977737, 9908977736, 9908977735, 9908977738],
+      "tags": {
+        "addr:city": "Winterthur",
+        "addr:housenumber": "7",
+        "addr:postcode": "8400",
+        "addr:street": "Nussbaumweg",
+        "leisure": "playground",
+        "name": "Spielplatz Kindergarten Breite"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1081089488,
+      "center": {
+        "lat": 47.509035,
+        "lon": 8.7094608
+      },
+      "nodes": [6255682134, 9909030843, 6255682129, 6255682128, 6255682134],
+      "tags": {
+        "access": "yes",
+        "leisure": "playground",
+        "name": "Spielplatz Flüeli-Weststrasse"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1081093473,
+      "center": {
+        "lat": 47.4667908,
+        "lon": 8.7589013
+      },
+      "nodes": [
+        9909068747, 9909068746, 12082906074, 9909068740, 9909068739,
+        12082906073, 12082906075, 9909068747
+      ],
+      "tags": {
+        "addr:city": "Sennhof",
+        "addr:housenumber": "2",
+        "addr:postcode": "8405",
+        "addr:street": "Hermann-Bühler-Strasse",
+        "leisure": "playground",
+        "name": "Spielplatz Schulhaus Sennhof Altbau"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1081095813,
+      "center": {
+        "lat": 47.5064271,
+        "lon": 8.7162971
+      },
+      "nodes": [
+        9909071374, 9909071373, 9909071372, 9909071371, 9909071370, 9909071369,
+        9909071368, 9909071367, 9909071366, 9909071365, 9909071364, 9909071363,
+        9909071362, 9909071361, 9909071360, 498771678, 498771677, 9909071374
+      ],
+      "tags": {
+        "addr:city": "Winterthur",
+        "addr:housenumber": "44",
+        "addr:postcode": "8400",
+        "addr:street": "Wülflingerstrasse",
+        "leisure": "playground",
+        "name": "Spielplatz Wülflingerstrasse"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1087775278,
+      "center": {
+        "lat": 47.4784984,
+        "lon": 8.770806
+      },
+      "nodes": [9966574289, 9966574290, 9966574291, 9966574289],
+      "tags": {
+        "access": "yes",
+        "leisure": "playground",
+        "name": "Spielplatz Schulhaus Oberseen",
+        "operator": "Schule Oberseen",
+        "playground:theme": "playground",
+        "surface": "grass"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1087930857,
+      "center": {
+        "lat": 47.4796903,
+        "lon": 8.7713648
+      },
+      "nodes": [
+        9967945091, 9967945092, 9967945093, 9967945094, 9967945095, 9967945096,
+        9967945097, 9967945091
+      ],
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1124479749,
+      "center": {
+        "lat": 47.5021994,
+        "lon": 8.7496892
+      },
+      "nodes": [
+        10282768241, 10282768242, 10282768243, 10282768244, 10282768245,
+        10282768246, 10282768247, 10282768248, 10282768249, 10282768250,
+        10282768251, 10282768252, 10282768253, 10282768254, 10282768255,
+        10282768256, 10282768241
+      ],
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1160679102,
+      "center": {
+        "lat": 47.5068597,
+        "lon": 8.7521034
+      },
+      "nodes": [
+        10795172386, 10795172387, 10795172388, 10795172389, 10795172386
+      ],
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1167901211,
+      "center": {
+        "lat": 47.4733531,
+        "lon": 8.7022559
+      },
+      "nodes": [
+        10861829434, 10861829435, 10861829436, 10861829437, 10861829438,
+        10861829439, 10861829440, 10861829441, 10861829442, 10861829443,
+        10861829444, 10861829445, 10861829446, 10861829447, 10861829448,
+        10861829450, 10861829449, 10861829434
+      ],
+      "tags": {
+        "access": "customers",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1187849784,
+      "center": {
+        "lat": 47.4852975,
+        "lon": 8.6965029
+      },
+      "nodes": [
+        11030121205, 11030121206, 11030121207, 11030121208, 11030121209,
+        11030121210, 11030121205
+      ],
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1187849794,
+      "center": {
+        "lat": 47.483766,
+        "lon": 8.6984459
+      },
+      "nodes": [
+        11030121237, 11030121238, 11030121239, 11030121240, 11030121241,
+        11030121242, 11030121237
+      ],
+      "tags": {
+        "access": "yes",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1194471134,
+      "center": {
+        "lat": 47.5060764,
+        "lon": 8.762012
+      },
+      "nodes": [
+        11086735015, 11089246644, 11086735016, 11099601174, 11086735017,
+        11086735018, 11099601172, 11086735015
+      ],
+      "tags": {
+        "access": "private",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1194741607,
+      "center": {
+        "lat": 47.5068598,
+        "lon": 8.7633296
+      },
+      "nodes": [
+        11089195301, 11089195302, 11089195303, 11089195304, 11089197905,
+        11099710321, 11089195301
+      ],
+      "tags": {
+        "access": "private",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1196298596,
+      "center": {
+        "lat": 47.5071115,
+        "lon": 8.764647
+      },
+      "nodes": [
+        11101150300, 11101150301, 11101150302, 11101172010, 11101150303,
+        11101150304, 11101172005, 11101172006, 11101172007, 11101172008,
+        11101172009, 11101150279, 11101150276, 11101150273, 11101150271,
+        11101150300
+      ],
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1205462909,
+      "center": {
+        "lat": 47.5055131,
+        "lon": 8.769913
+      },
+      "nodes": [
+        11171626032, 11171626033, 11208392166, 11208392167, 11208392168,
+        11208392169, 11208392170, 11208392171, 11171626034, 11171626035,
+        11171626032
+      ],
+      "tags": {
+        "leisure": "playground",
+        "name": "Kindergarten Reismühle",
+        "operator": "Stadtgrün Winterthur"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1205463646,
+      "center": {
+        "lat": 47.4865595,
+        "lon": 8.7630328
+      },
+      "nodes": [
+        11171638940, 11171638941, 11171638942, 11171638943, 11171638944,
+        11171638945, 11171638946, 11171638947, 11171638948, 11171638949,
+        11171638940
+      ],
+      "tags": {
+        "leisure": "playground",
+        "name": "Kindergarten Hinterdorfstrasse",
+        "operator": "Stadtgrün Winterthur"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1205465946,
+      "center": {
+        "lat": 47.4930398,
+        "lon": 8.7495582
+      },
+      "nodes": [
+        11171646231, 11171646232, 11171646233, 11171646234, 11171646231
+      ],
+      "tags": {
+        "leisure": "playground",
+        "name": "Gutschick Quartierspielplatz",
+        "operator": "Stadtgrün Winterthur"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1207713038,
+      "center": {
+        "lat": 47.4831684,
+        "lon": 8.7562725
+      },
+      "nodes": [
+        11190190011, 11190190012, 11190190013, 11190190014, 11190190015,
+        11190190016, 11190190011
+      ],
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1208768968,
+      "center": {
+        "lat": 47.5025682,
+        "lon": 8.7681627
+      },
+      "nodes": [
+        11199772391, 11199772392, 11199772393, 8493703026, 11199772394,
+        11199772395, 11199772396, 11199772397, 11199772398, 11199772391
+      ],
+      "tags": {
+        "access": "yes",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1226719876,
+      "center": {
+        "lat": 47.5086986,
+        "lon": 8.6900898
+      },
+      "nodes": [
+        11375325849, 11375325850, 11375325851, 11375325852, 11375325849
+      ],
+      "tags": {
+        "emergency:ref": "8",
+        "leisure": "playground",
+        "operator": "Stadtgrün Winterthur",
+        "operator:wikidata": "Q56825906"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1227821685,
+      "center": {
+        "lat": 47.4846594,
+        "lon": 8.6980649
+      },
+      "nodes": [
+        11386014322, 11386014339, 11386014318, 11386014333, 11386014324,
+        11386014323, 11386014322
+      ],
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1237407397,
+      "center": {
+        "lat": 47.4675054,
+        "lon": 8.7579792
+      },
+      "nodes": [
+        11493039558, 11493039557, 11493039556, 11493039555, 11493039554,
+        11493039553, 11493039558
+      ],
+      "tags": {
+        "access": "private",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1245933523,
+      "center": {
+        "lat": 47.5276568,
+        "lon": 8.7518284
+      },
+      "nodes": [
+        11582761341, 11582761332, 11582761342, 11582761355, 11582761341
+      ],
+      "tags": {
+        "access": "yes",
+        "addr:housenumber": "70",
+        "addr:street": "Reutlingerstrasse",
+        "leisure": "playground",
+        "name": "SH Reutlingen",
+        "ref": "37",
+        "uuid": "0200016b-4979-92c9-e063-5015630a1ac2"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1272684749,
+      "center": {
+        "lat": 47.4917784,
+        "lon": 8.7465599
+      },
+      "nodes": [
+        11818045859, 11818045860, 11818045861, 11818045862, 11818045859
+      ],
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1304454212,
+      "center": {
+        "lat": 47.4687167,
+        "lon": 8.7573062
+      },
+      "nodes": [
+        12080174872, 12080174870, 12080174878, 12080174871, 12080174872
+      ],
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1309441849,
+      "center": {
+        "lat": 47.5070975,
+        "lon": 8.724898
+      },
+      "nodes": [
+        12125048232, 12125048231, 12125048230, 12125048229, 12125048232
+      ],
+      "tags": {
+        "leisure": "playground",
+        "name": "Kindergarten äusseres Lind",
+        "operator": "Stadtgrün Winterthur",
+        "ref": "09"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1316142649,
+      "center": {
+        "lat": 47.5061051,
+        "lon": 8.710014
+      },
+      "nodes": [
+        12182055282, 12182055283, 12182055284, 12182055285, 12182055286,
+        12182055287, 12182055288, 12182055289, 12182055290, 12182055291,
+        12182055282
+      ],
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1316147849,
+      "center": {
+        "lat": 47.5053253,
+        "lon": 8.7342223
+      },
+      "nodes": [
+        12182085596, 12182085597, 12182085598, 12182085599, 12182085600,
+        12182097801, 12182097802, 12182097803, 12182097804, 12182097805,
+        12182097806, 12182097807, 12182085596
+      ],
+      "tags": {
+        "access": "yes",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1324333111,
+      "center": {
+        "lat": 47.5077861,
+        "lon": 8.6933542
+      },
+      "nodes": [
+        12254829641, 12254829642, 12254829643, 12254829644, 12254829641
+      ],
+      "tags": {
+        "access": "yes",
+        "leisure": "playground",
+        "name": "Spielplatz Schenkelwiese",
+        "operator": "Stadt Winterthur"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1378412952,
+      "center": {
+        "lat": 47.5049324,
+        "lon": 8.6881169
+      },
+      "nodes": [
+        12762941538, 12762941539, 12762941540, 12762941541, 12762941542,
+        12762941543, 12762941544, 12762941545, 12762941546, 12762941547,
+        12762941548, 12762941549, 12762941550, 12762941551, 12762941552,
+        12762941553, 12762941538
+      ],
+      "tags": {
+        "access": "private",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1378412992,
+      "center": {
+        "lat": 47.5044625,
+        "lon": 8.6886185
+      },
+      "nodes": [
+        12763003267, 12763003268, 12763003269, 12763003270, 12763003271,
+        12763003272, 12763003273, 12763003267
+      ],
+      "tags": {
+        "access": "private",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1378413057,
+      "center": {
+        "lat": 47.5145359,
+        "lon": 8.6816312
+      },
+      "nodes": [
+        12763003569, 12763003570, 12763003571, 12763003572, 12763003573,
+        12763003574, 12763003575, 12763003576, 12763003577, 12763003578,
+        12763003579, 12763003580, 12763003581, 12763003569
+      ],
+      "tags": {
+        "access": "private",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1379827137,
+      "center": {
+        "lat": 47.492344,
+        "lon": 8.7207997
+      },
+      "nodes": [
+        12775330415, 12775330416, 12775330417, 12775330418, 12775330419,
+        12775330415
+      ],
+      "tags": {
+        "access": "yes",
+        "leisure": "playground",
+        "name": "Lärchenstrasse Anlage",
+        "operator": "Stadt Winterthur"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1382953543,
+      "center": {
+        "lat": 47.4898759,
+        "lon": 8.7633035
+      },
+      "nodes": [
+        12803853551, 12803853552, 12803853553, 12803853554, 12803853551
+      ],
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1425667009,
+      "center": {
+        "lat": 47.4879751,
+        "lon": 8.7156839
+      },
+      "nodes": [
+        13104468917, 13104468918, 13104468919, 13104468920, 13104468921,
+        13104468917
+      ],
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1427246881,
+      "center": {
+        "lat": 47.4848147,
+        "lon": 8.7732402
+      },
+      "nodes": [
+        13120575674, 13120575673, 13120575672, 13120575671, 13120575670,
+        13120575669, 13120575668, 13120575667, 13120575666, 13120575665,
+        13120575664, 13120575663, 13120575662, 13120575661, 13120575674
+      ],
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1427260086,
+      "center": {
+        "lat": 47.486031,
+        "lon": 8.7638063
+      },
+      "nodes": [
+        13120744006, 13120744007, 13120744008, 13120744009, 13120744010,
+        13120744006
+      ],
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1427292899,
+      "center": {
+        "lat": 47.5109459,
+        "lon": 8.6865459
+      },
+      "nodes": [
+        13121045846, 13121045847, 13121045848, 13121045849, 13121045850,
+        13121045851, 13121045852, 13121045853, 13121045854, 13121045855,
+        13121045846
+      ],
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1444715201,
+      "center": {
+        "lat": 47.5083422,
+        "lon": 8.7311222
+      },
+      "nodes": [
+        13256052596, 13256052597, 13256052598, 13256052599, 13256052600,
+        13256077901, 13256077902, 13256077903, 13256077904, 13256077905,
+        13256052596
+      ],
+      "tags": {
+        "leisure": "playground"
+      }
+    }
+  ]
+}

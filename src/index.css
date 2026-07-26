@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+.map-tiles-soft {
+  filter: brightness(1.35) contrast(0.9);
+}
