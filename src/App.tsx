@@ -17,11 +17,15 @@ export default function App() {
 
   return (
     <div className="flex h-screen w-screen flex-col">
-      <header className="bg-emerald-700 px-4 py-3 text-white shadow">
-        <h1 className="text-lg font-bold">Winterthur Playgrounds</h1>
-        <p className="text-sm text-emerald-100">
-          {filtered.length} of {data.length} playgrounds
-        </p>
+      <header className="flex items-center gap-3 bg-[#1A1A1A] px-4 py-3 text-white shadow">
+        <div className="flex h-11 w-13 flex-shrink-0 items-center justify-center rounded-sm bg-white text-sm font-bold">
+          <img src="logo.png" />
+        </div>
+        <div>
+          <h1 className="text-lg font-bold leading-tight text-red-300">
+            Spielplätze Winterthur
+          </h1>
+        </div>
       </header>
       <div className="relative flex flex-1 overflow-hidden">
         <PlaygroundSidebar

@@ -31,7 +31,7 @@ function PlaygroundSidebar({
             type="text"
             value={search}
             onChange={(e) => onSearchChange(e.target.value)}
-            placeholder="Search playgrounds…"
+            placeholder="Spielplätze suchen…"
             className="w-full rounded border border-gray-300 px-3 py-2 text-sm focus:border-emerald-600 focus:outline-none"
           />
 
