@@ -65,12 +65,12 @@ function PlaygroundSidebar({
         onClick={onToggle}
         aria-label={open ? "Hide sidebar" : "Show sidebar"}
         className={`
-    absolute top-4 z-30 h-10 w-10 items-center justify-center
-    rounded-r-md border border-l-0 border-gray-200 bg-white shadow
-    transition-[left] duration-300 ease-in-out
-    hover:bg-gray-50
-    ${open ? "hidden left-72 sm:flex" : "flex left-0"}
-  `}
+          absolute top-4 z-30 h-10 w-10 items-center justify-center
+          rounded-r-md border border-gray-200 bg-white shadow
+          transition-[left] duration-300 ease-in-out
+          hover:bg-gray-50
+          ${open ? "hidden left-72 sm:flex" : "flex left-4"}
+          `}
       >
         {open ? "‹" : "›"}
       </button>
