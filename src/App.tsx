@@ -2,6 +2,7 @@ import { useState, useMemo } from "react";
 import PlaygroundMap from "./components/playground-map";
 import PlaygroundSidebar from "./components/playground-sidebar";
 import playgroundsData from "./data/playgrounds.json";
+import AddressSearch from "./components/address-search";
 import type { Playground } from "./stores/types";
 
 export default function App() {

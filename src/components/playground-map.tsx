@@ -1,8 +1,11 @@
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import MarkerClusterGroup from "react-leaflet-cluster";
-import L from "leaflet";
+import L, { map } from "leaflet";
 import "leaflet/dist/leaflet.css";
 import type { Playground } from "../stores/types";
+import { observer } from "mobx-react-lite";
+import { useEffect, useRef } from "react";
+import { mapStore } from "../stores/map-store";
 
 interface Props {
   playgrounds: Playground[];
@@ -17,8 +20,29 @@ const playgroundIcon = new L.Icon({
 
 const WINTERTHUR_CENTER: [number, number] = [47.5001, 8.7241];
 
-function PlaygroundMap({ playgrounds }: Props) {
+const PlaygroundMap = observer(function PlaygroundMap({ playgrounds }: Props) {
   const data = playgrounds as Playground[];
+
+  const mapRef = useRef<L.Map | null>(null);
+  const searchMarkerRef = useRef<L.Marker | null>(null);
+
+  useEffect(() => {
+    const t = mapStore.target;
+    if (!t || !mapRef.current) return;
+
+    mapRef.current.flyTo([t.lat, t.lon], t.zoom);
+
+    if (t.label) {
+      if (searchMarkerRef.current) {
+        mapRef.current.removeLayer(searchMarkerRef.current);
+      }
+      const marker = L.marker([t.lat, t.lon])
+        .addTo(mapRef.current)
+        .bindPopup(t.label)
+        .openPopup();
+      searchMarkerRef.current = marker;
+    }
+  }, []);
 
   return (
     <MapContainer
@@ -27,6 +51,7 @@ function PlaygroundMap({ playgrounds }: Props) {
       scrollWheelZoom
       zoomControl={false}
       className="h-full w-full"
+      ref={mapRef}
     >
       <TileLayer
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
@@ -61,6 +86,6 @@ function PlaygroundMap({ playgrounds }: Props) {
       </MarkerClusterGroup>
     </MapContainer>
   );
-}
+});
 
 export default PlaygroundMap;
