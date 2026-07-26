@@ -1,4 +1,5 @@
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
+import MarkerClusterGroup from "react-leaflet-cluster";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 import playgrounds from "../data/playgrounds.json";
@@ -29,17 +30,31 @@ function PlaygroundMap() {
         subdomains="abcd"
         className="map-tiles-soft"
       />
-      {data.map((p) => (
-        <Marker key={p.id} position={[p.lat, p.lon]} icon={playgroundIcon}>
-          <Popup minWidth={180}>
-            <div className="font-semibold">{p.name}</div>
-            {p.surface && <div className="text-sm">Surface: {p.surface}</div>}
-            {p.operator && (
-              <div className="text-sm">Operator: {p.operator}</div>
-            )}
-          </Popup>
-        </Marker>
-      ))}
+      <MarkerClusterGroup
+        chunkedLoading
+        maxClusterRadius={50}
+        iconCreateFunction={(cluster) => {
+          const count = cluster.getChildCount();
+          const size = count < 10 ? "small" : count < 30 ? "medium" : "large";
+          return L.divIcon({
+            html: `<div class="cluster-bubble cluster-${size}"><span>${count}</span></div>`,
+            className: "custom-cluster-icon",
+            iconSize: L.point(40, 40, true),
+          });
+        }}
+      >
+        {data.map((p) => (
+          <Marker key={p.id} position={[p.lat, p.lon]} icon={playgroundIcon}>
+            <Popup minWidth={180}>
+              <div className="font-semibold">{p.name}</div>
+              {p.surface && <div className="text-sm">Surface: {p.surface}</div>}
+              {p.operator && (
+                <div className="text-sm">Operator: {p.operator}</div>
+              )}
+            </Popup>
+          </Marker>
+        ))}
+      </MarkerClusterGroup>
     </MapContainer>
   );
 }

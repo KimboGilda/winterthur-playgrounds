@@ -3,3 +3,17 @@
 .map-tiles-soft {
   filter: brightness(1.35) contrast(0.9);
 }
+
+.cluster-bubble {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: white;
+  font-weight: 600;
+  border: 3px solid white;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.4);
+}
+.cluster-small  { width: 34px; height: 34px; background: #10b981; font-size: 12px; }
+.cluster-medium { width: 42px; height: 42px; background: #f59e0b; font-size: 13px; }
+.cluster-large  { width: 50px; height: 50px; background: #ef4444; font-size: 14px; }
