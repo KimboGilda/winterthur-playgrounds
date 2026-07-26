@@ -5,6 +5,10 @@ import "leaflet/dist/leaflet.css";
 import playgrounds from "../data/playgrounds.json";
 import type { Playground } from "../stores/types";
 
+interface Props {
+  playgrounds: Playground[];
+}
+
 const playgroundIcon = new L.Icon({
   iconUrl: "public/playground.png",
   iconSize: [32, 32],
@@ -14,7 +18,7 @@ const playgroundIcon = new L.Icon({
 
 const WINTERTHUR_CENTER: [number, number] = [47.5001, 8.7241];
 
-function PlaygroundMap() {
+function PlaygroundMap({ playgrounds }: Props) {
   const data = playgrounds as Playground[];
 
   return (
