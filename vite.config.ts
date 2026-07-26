@@ -4,5 +4,5 @@ import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: "/winterthur-playgrounds/", // must match your GitHub repo name
+  base: "/winterthur-playgrounds/",
 });
